@@ -1,107 +1,115 @@
-LINK : https://maxkarltun.github.io/travel_buddy/
+# ✈️ Travel Buddy
 
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-GitHub%20Pages-2ea44f?style=for-the-badge&logo=github)](https://maxkarltun.github.io/travel_buddy/)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=000)
 
-* GIVEN there are international tourists in many cities, the weather and currency exchange rate may influence their attire, activities, and budget.
-​
-## Description of the MVP
-​
-* WHEN the user inputs a city, they are presented with the weather for that day and a five day forecast.
-* WHEN the user selects from a drop down menu of currencies, the user sees its value compared to one US dollar.
-* WHEN the user inputs the cost of something in US Dollars, the user sees the value in the selected currency.
-​
+Travel Buddy is a simple travel planning app that helps users quickly check **weather forecasts** and **currency exchange values** for destinations around the world.
 
-​
-### Use a CSS framework other than Bootstrap.
-    * Materialize has been implemented with custom css support files
-        * Basic styling via HTML shortcuts sim. to Bootstrap
-        * Difficult to finesse
-​
-### Be deployed to GitHub Pages.
-    * See our website
-        * Early deployment helped us scale back MVP scope
-        * Loading time is a problem 
-​
-### Be interactive and use at least two server-side APIs
-    * The user inputs any major city in the world.
-        * Weather information is in "real time".
-        * For mor information see https://openweathermap.org/api
-    * The user can select from a list of 51 currencies.
-        * Exchange rate information is in "real time".
-        * For more information see https://www.exchangerate-api.com/docs/overview
-​
-### Does not use alerts, confirms, or prompts (use modals).
-    * Incorporating modals is on our wish list for future development.
-        * Asking the user allowance for their current location:
-            * Recommend activities based upon the local weather
-            * Recommend retail items based upon the local weather
-        * Asking the user where they want to go:
-            * Sign up for Travel Buddy
-                * Ask if they are interested in receiving last minute trip deals.
-                * Ask if they want to receive "staycation" deals.
-​
-### Use client-side storage to store persistent data.
-    * The last city searched is stored locally.
-​
-### Be responsive and have a polished UI.
-    * We were happy with our bootstrap CSS look and feel, and hope to materialize it as best as possible.
-    * The CDN provided CSS options will make it easier to scale projects.
-​
-### Have a clean repository that meets quality coding standards:
-    * We have tried to implement the following to the best of our ability:
-        * file structure
-        * naming conventions
-        * follows best practices for class/id naming conventions
-        * indentations and quality comments
-​
-### Have a quality README
-    * We have tried to implement the following to the best of our ability:
-        * unique name and description
-        * technologies used
-        * screenshot, and link to deployed application
-________________________________________________________________________________________________________________________________________________________________
-## Tech Used:
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?logo=html5&logoColor=white&style=for-the-badge)
-![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?logo=css3&logoColor=white&style=for-the-badge)
-![JavaScript](https://img.shields.io/badge/-JavaScript-%23F7DF1C?style=flat-square&logo=javascript&logoColor=000000&color=d1b01f)
+🔗 **Live Site:** https://maxkarltun.github.io/travel_buddy/
 
-________________________________________________________________________________________________________________________________________________________________
-## Table of Contents
-* [Installation](#installation)
-* [Usage](#usage)
-* [Credits](#credits)
-* [License](#license)
-* [Badges](#badges)
-* [Features](#features)
-* [How-to-Contribute](#how-to-contribute)
-* [Tests](#tests)
-​
-## Installation
-* There are no special installation requirements for this project.
-​
-## Usage
-* Tourists all over the world.
-​
-! [travelBuddy](assets/images/screenshot-travelBuddy.png)
-'''
-! [tbLogo-long](assets/images/tbLogo-long.png)
-'''
-​
-## Credits
-* This is a group project assignment see [UM's Coding Bootcamp](https://bootcamp.miami.edu/coding/)
-    * Creative Director : Karltun Moreno
-    * Project Manager : Blerand Ismaili
-    * Creative and admin support: Miguel Mulet, Christi Lewis, and Aaron Jardine
-    * Logo Designer : Miguel Mulet
-    * Photographer: Karltun Moreno
-    * Note: the name, Travel Buddy, was coincidentally used by Tim Sherry's team UM bootcamp class of '? . Tim is one of our fearless TAs.
-​
-## License
-* Contents are credited as inspired by the bootcamp, API documentation licensing requirements, and as per permission by the team members mentioned above. 
-​
-## Badges
-* There are no badges generated at this time. For more information: [shields.io](https://shields.io/)
-​
-## Features
-* Realtime, anywhere weather
-* Realtime currency exchange rates.
-​
+---
+
+## 🌍 Overview
+
+When people travel internationally, weather and exchange rates can affect what they pack, what they do, and how they budget.
+
+Travel Buddy combines both of these essentials in one place:
+- Search a city to see current weather + 5-day forecast
+- Select a currency to compare it against USD
+- Convert an amount in USD to the selected currency
+
+---
+
+## ✨ Features
+
+- 🌤️ **Real-time weather data** for major cities worldwide
+- 📅 **5-day weather forecast**
+- 💱 **Real-time currency exchange rates**
+- 🧮 **USD-to-foreign-currency converter**
+- 💾 **Local storage support** to remember the last searched city
+- 📱 **Responsive interface** for different screen sizes
+
+---
+
+## 🛠️ Tech Stack
+
+- **JavaScript**
+- **CSS** (Materialize + custom styles)
+- **HTML**
+- **OpenWeather API**
+- **ExchangeRate API**
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+No installation is required to use the deployed app.
+
+### Run Locally
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/MaxKarltun/travel_buddy.git
+   ```
+2. Open the project folder.
+3. Launch `index.html` in your browser.
+
+---
+
+## 📖 Usage
+
+1. Enter a city name.
+2. View current weather and 5-day forecast.
+3. Choose a currency from the dropdown.
+4. Enter a USD amount to convert.
+
+---
+
+## 📸 Screenshots
+
+> Add/update screenshots in this section if needed.
+
+- `assets/images/screenshot-travelBuddy.png`
+- `assets/images/tbLogo-long.png`
+
+---
+
+## 👥 Credits
+
+This project was created as a collaborative bootcamp project.
+
+- Creative Director: **Karltun Moreno**
+- Project Manager: **Blerand Ismaili**
+- Creative/Admin Support: **Miguel Mulet, Christi Lewis, Aaron Jardine**
+- Logo Designer: **Miguel Mulet**
+- Photographer: **Karltun Moreno**
+- Program: [University of Miami Coding Bootcamp](https://bootcamp.miami.edu/coding/)
+
+---
+
+## 📄 License
+
+This repository currently has no explicit license file. Add a `LICENSE` file if you want to define usage permissions clearly.
+
+---
+
+## 🤝 Contributing
+
+If you'd like to improve Travel Buddy:
+1. Fork the repo
+2. Create a feature branch
+3. Commit your changes
+4. Open a pull request
+
+---
+
+## 🔮 Future Improvements
+
+- Better loading performance
+- Optional location-based recommendations
+- Activity suggestions based on weather
+- Travel or staycation deal notifications
